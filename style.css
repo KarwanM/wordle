@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+header{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.guess-squares {
+    width: 300px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2px;
+}
+
+.guess-squares div {
+    width: 100%;
+    height: 55px;
+    border: 1px solid slategray;
+}
+
+.keyboard-layout {
+    width: 500px;
+    margin: 100px auto;
+}
+
+.layout-first-line {
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.layout-first-line button {
+    padding: 6px 0;
+}
+
+.layout-second-line,
+.layout-third-line {
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.layout-second-line button,
+.layout-third-line button {
+    padding: 6px 0;
+}
+
+.clear,
+.enter {
+    width: 70px;
+}
+
+footer{
+    text-align: center;
+}
