@@ -1,3 +1,3 @@
 # Wordle
 
-https://karwanm.github.io/Wordle/
+https://karwanm.github.io/wordle/
