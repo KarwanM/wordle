@@ -46,7 +46,6 @@ window.addEventListener("keydown", (e) => {
   });
 
   setLetter(e);
-  console.log(e)
 });
 
 window.addEventListener("keyup", (e) => {
@@ -57,6 +56,7 @@ window.addEventListener("keyup", (e) => {
     }
   });
 });
+
 
 function setLetter(e) {
   if (letters.includes(e.key)) {
