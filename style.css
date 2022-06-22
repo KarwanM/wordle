@@ -11,47 +11,56 @@ header{
     padding: 20px 0;
 }
 
-.guess-squares {
+.game-board {
     width: 300px;
+    height: 360px;
     margin: 20px auto;
+}
+
+
+.game-board div{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 2px;
+    margin-top: 2px;
 }
 
-.guess-squares div {
+.game-board div p{
     width: 100%;
-    height: 55px;
+    height: 60px;
+    padding-top: 10px;
+    font-size: 40px;
+    text-align: center;
     border: 1px solid slategray;
 }
+
 
 .keyboard-layout {
     width: 500px;
     margin: 100px auto;
 }
 
-.layout-first-line {
+.keyboard-layout button{
+    padding: 7px 0;
+    border: none;
+    cursor: pointer;
+    background-color: silver;
+}
+
+.keyboard-first-row {
     margin-bottom: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 5px;
 }
 
-.layout-first-line button {
-    padding: 6px 0;
-}
 
-.layout-second-line,
-.layout-third-line {
+.keyboard-second-row ,
+.keyboard-third-row  {
     margin-bottom: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 5px;
-}
-
-.layout-second-line button,
-.layout-third-line button {
-    padding: 6px 0;
 }
 
 .clear,
